@@ -1,5 +1,6 @@
 import React, { useRef } from 'react';
-import { Route, Routes } from 'react-router-dom'; 
+import { Route, Routes } from 'react-router-dom';
+
 import Navbar from './Components/Navbar';
 import HeroSection from './Pages/HeroSection';
 import TestimonialsSection from './Components/Testimonials';
@@ -27,7 +28,7 @@ function App() {
             }
           />
           <Route path="/products" element={<ProductsPage />} />
-          <Route path="/ourcommunity" element={<OurCommunity />} /> {/* Add this route */}
+          <Route path="/ourcommunity" element={<OurCommunity />} />
         </Routes>
       </main>
       <Footer />

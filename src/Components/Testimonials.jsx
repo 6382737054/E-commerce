@@ -1,4 +1,6 @@
 import React from 'react';
+import './style.css'; // Adjust the path as necessary
+
 
 // Sample testimonials data
 const testimonials = [
@@ -70,16 +72,6 @@ const TestimonialsSection = () => {
           ))}
         </div>
       </div>
-      <style jsx>{`
-.shadow-custom {
-    box-shadow: 
-        0 4px 30px rgba(255, 105, 180, 0.4), /* Darker Light Pink */
-        0 8px 30px rgba(255, 145, 190, 0.4), /* Soft Pink */
-        0 12px 40px rgba(255, 200, 210, 0.3); /* Light Pink */
-}
-
-
-      `}</style>
     </section>
   );
 };
