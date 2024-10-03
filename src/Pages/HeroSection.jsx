@@ -75,7 +75,7 @@ const HeroSection = () => {
   };
 
   return (
-    <section className="relative bg-pink-50 overflow-hidden pt-3">
+    <section className="relative bg-pink-50 overflow-hidden pt-4">
       {/* Hero Content Section */}
       <div
         className="relative w-full h-[80vh] sm:h-[70vh] lg:h-screen flex items-center justify-start bg-cover bg-center"

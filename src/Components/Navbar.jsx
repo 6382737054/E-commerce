@@ -43,7 +43,7 @@ const NavBar = ({ heroRef, companyName = "Thurigai" }) => {
               className="w-20 h-26" // Further increased width and height
             />
             {/* Company Name */}
-            <div className="ml-1 mt-1.5"> {/* Adjust margin-left and margin-top to position title */}
+            <div className="ml-1 mt-2"> {/* Adjust margin-left and margin-top to position title */}
               <h1 className="text-xl font-semibold text-gray-500"> {/* Silver-grey color */}
                 {companyName}
               </h1>
