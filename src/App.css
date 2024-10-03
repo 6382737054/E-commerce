@@ -1,0 +1,72 @@
+body {
+  margin: 0; /* Remove default body margin */
+  html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+footer {
+  margin: 0; /* Ensure footer has no margin */
+  padding: 0; /* Adjust as necessary */
+}
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin; /* Responsive logo size */
+  pointer-events: none; /* Prevents interactions */
+  transition: transform 0.2s; /* Smooth scaling effect on hover */
+}
+
+.App-logo:hover {
+  transform: scale(1.1); /* Slightly enlarge logo on hover */
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear; /* Spinning animation */
+  }
+}
+
+.App-header {
+  background-color: #282c34; /* Dark background for header */
+  min-height: 100vh; /* Full viewport height */
+  display: flex; /* Flexbox for layout */
+  flex-direction: column; /* Column layout */
+  align-items: center; /* Center content horizontally */
+  justify-content: center; /* Center content vertically */
+  font-size: calc(10px + 2vmin); /* Responsive font size */
+  color: white; /* White text color */
+  padding: 20px; /* Add padding for spacing */
+}
+
+.App-link {
+  color: #61dafb; /* Link color */
+  text-decoration: none; /* Remove underline */
+  transition: color 0.3s; /* Smooth transition for color change */
+}
+
+.App-link:hover {
+  color: #21a1f1; /* Change link color on hover */
+}
+
+.App-footer {
+  margin: 0; /* Ensure no margin on footer */
+  padding: 20px; /* Optional padding for footer content */
+  background-color: #282c34; /* Footer background color */
+  color: white; /* Footer text color */
+  text-align: center; /* Center text in footer */
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg); /* Initial rotation */
+  }
+  to {
+    transform: rotate(360deg); /* Full rotation */
+  }
+}
