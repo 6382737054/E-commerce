@@ -2,7 +2,7 @@
   "name": "thurigai",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://6382737054.github.io/Thurigai-ecommerce",
+  "homepage": "",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.6.0",
     "@heroicons/react": "^2.1.5",
